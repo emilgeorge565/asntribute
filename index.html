@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="site.css" />
+<link rel="shortcut icon" type="image/png" href="images/site logo.png">
+</head>
+<script>history.scrollRestoration = "manual"</script>
+<body>
+
+<div class="bg-image">
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <hr class="line">
+      <a href="know.html">Learn</a>
+      <hr class="line">
+      <a href="credits.html">Credits</a>
+      <hr class="line">
+      <a href="login.html">Login</a>
+    </div>
+  </div>
+
+  <div class="navbar">
+      <a href="#myNav" title="menu" onclick="openNav()"><span class="menu">&#9776; Menu</span></a> <!--don't add href="#" or else scroll will got to top-->
+      <a href="credits.html"><i class = "fa fa-fw fa-star"></i> Credits</a> 
+      <a href="know.html"><i class="fa fa-fw fa-book"></i> Learn</a> 
+      <a class="active" href="#"><span class ="fa fa-fw fa-home"></span> Home</a>
+      
+  </div>
+
+  <div class="head-text">
+    <h1 style="float:left;font-size: 40px;margin-left: 30px;">Emyuverse, an <br>NFT knowledge <br> site.</h1>
+    <hr class="divider-line" style="width: 12%">
+    <div id="slider" style=" position: relative; float: left; font-style: normal;">
+      <ul id="slideWrap"> 
+        <li><img src="images/slider 1.jpg" alt=""></li>
+        <li><img src="images/slider 2.jpg" alt=""></li>
+        <li><img src="images/slider 3.jpg" alt=""></li>
+        <li><img src="images/slider 4.png" alt=""></li>
+        <li><img src="images/slider 5.png" alt=""></li>
+        <li><img src="images/use.jpeg" alt=""></li>
+      </ul>
+      <a id="prev" href="#mynav">&#10094;</a>
+      <a id="next" href="#mynav">&#10095;</a>
+    </div>
+  </div>
+
+  <hr class="divider-line" style="margin-top: 300px">
+  <div class="header-text" style="margin-top: 5px; font-size: 25px; margin-left: 40px;">
+    <h2>Below are some examples of NFTs-</h2>
+  </div>
+
+  <hr style="height:2px; width:90%; border-width:4; color:rgb(238, 228, 228); background-color:rgb(241, 229, 229)">
+
+  <div class="outer-grid">
+    <div class="inner-grid">
+    <a href="images/metal.jpg" target="_blank"><img src="images/metal.jpg"/></a>
+    <a href="images/dark.jpg" target="_blank" ><img src="images/dark.jpg"/></a>
+    <a href="images/tree.jpg" target="_blank"><img src="images/tree.jpg"/></a>
+    </div><!--write target="_blank" rel="noopener noreferrer"> , if you hink link can be malicious -->
+    <div class="inner-grid">
+    <a href="images/night.jpg" target="_blank"><img src="images/night.jpg"/></a>
+    <a href="images/spirals.jpg" target="_blank"><img src="images/spirals.jpg"/></a>
+    <a href="images/space.jpg" target="_blank"><img src="images/space.jpg"/></a>
+    <a href="images/paper.png" target="_blank"><img src="images/paper.png"/></a>
+    </div>
+    <div class="inner-grid">
+    <a href="images/astro.png" target="_blank"><img src="images/astro.png"/></a>
+    <a href="images/bulb.jpg" target="_blank"><img src="images/bulb.jpg"/></a>
+    </div>
+  </div>
+
+  <div class="header-text" style="margin-top: 5px; font-size: 25px; margin-left: 40px;">
+    <h2>For more info and details about NFTs, please go to the 'learn' page.</h2>
+  </div>
+
+  <div class="footer">
+    <hr style="height:2px; width:95%; border-width:0; color:rgb(238, 228, 228); background-color:rgb(241, 229, 229)">
+    <p>#Created by A.S.N Sr. Sec. School Team</p>
+  </div>
+  
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html> 
